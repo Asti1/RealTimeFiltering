@@ -1,0 +1,29 @@
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Compiled files
+*.o
+*.out
+*.exe
+Project1/Project1
+
+# macOS
+.DS_Store
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Output files (optional - remove if you want to include sample outputs)
+*.avi
+sample_copy.jpg
+depth_image.png
+
+# Large model files (optional)
+*.onnx
+EOF
