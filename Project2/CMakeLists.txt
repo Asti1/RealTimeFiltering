@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(Project2 main.cpp)
+add_executable(Project2 main.cpp features.cpp features.h csv_util.cpp csv_util.h)
 
 target_link_libraries(Project2 ${OpenCV_LIBS})
 

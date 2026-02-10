@@ -11,7 +11,7 @@
 
 #include "filters.h"
 #include <iostream>
-#include <sys/time.h> 
+#include <sys/time.h>
 using namespace cv;
 using namespace std;
 double getTime() {
